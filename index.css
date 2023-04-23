@@ -1,0 +1,69 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-color: #016f32;
+    background-size: cover;
+    font-weight: bold;
+
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.container {
+    /* background-image: url('/poker1.jpg'); */
+
+    background-image: url('/poker1.jpg');
+    background-size: cover;
+    display: flex;
+    text-shadow: -1.5px 1.5px 5px gray;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 30%;
+    height: 65%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: red;
+    text-shadow: -2px 2px black;
+    text-decoration: underline;
+}
+
+#message-el {
+    /* font-style: italic; */
+}
+
+/* 
+3. Style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+ */
+
+button {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    box-shadow: -2px 2px 7px rgba(17, 17, 17, 0.703);
+}
+
+button:hover {
+    background-color: rgb(253, 192, 38);
+}
